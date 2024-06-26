@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="39.668" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Login" name="Successfull Login with Valid Credentials" time="17.92">
+<system-out><![CDATA[
+Given User Lounch Chrome Browser............................................passed
+When User Opens URL "https://demo.guru99.com/V3/"...........................passed
+And User Enteruserid as "mngr574314" and EnterPassword as "havyqyj".........passed
+And Click On Login..........................................................passed
+Then User should be logged In...............................................passed
+When User Click On LogOut Link..............................................passed
+Then User should be logged Out..............................................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Successfull Login with Data Driven - Example #1.1" time="21.495">
+<system-out><![CDATA[
+Given User Lounch Chrome Browser............................................passed
+When User Opens URL "https://demo.guru99.com/V3/"...........................passed
+And User Enteruserid as "mngr574314" and EnterPassword as "havyqyj".........passed
+And Click On Login..........................................................passed
+Then User should be logged In...............................................passed
+When User Click On LogOut Link..............................................passed
+Then User should be logged Out..............................................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
